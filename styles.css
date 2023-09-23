@@ -1,0 +1,115 @@
+body{
+    background-color:#9869d9;
+    color: rgb(245, 240, 240);
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+    font-family: 'Croissant One', cursive;
+    font-size: 70px;
+}
+h2{
+    text-align:leftr;
+    font-style:italic;
+    font-family: 'Croissant One', cursive;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: solid black 3px;
+    margin-left: 30px;
+}
+
+.btn{
+    height: 55px; 
+    width: 65px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 15px;
+    border: solid black 3px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: rgb(246, 81, 81);
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid #360a02;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#div1{
+   padding: 30px 0px 0px;
+   margin: 20px ;
+   text-align: left;
+   margin-bottom: 0px;
+   
+}
+
+#div2{
+    padding: 20px;
+    margin: 20px;
+    height: fit-content;
+    font-size: 30px;
+    text-align: left;
+ }
+
+ span{
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    border-radius: 30px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 18px;
+}
+
+@media (max-width : 800px) {
+
+    .btn{
+
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    body{
+        text-align: center;
+    }
+
+    img{
+        position: static;
+    }
+
+}
+
+
